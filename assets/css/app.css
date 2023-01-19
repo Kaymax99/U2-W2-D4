@@ -186,4 +186,5 @@ footer div {
 body {
   background-image: url(../img/supplies.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }/*# sourceMappingURL=app.css.map */
