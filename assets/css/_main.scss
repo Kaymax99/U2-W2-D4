@@ -1,0 +1,33 @@
+@import "mixins";
+@import "cards";
+
+#homeMain {
+  height: 80vh;
+  color: white;
+  > div {
+    @include FlexCenterCenter;
+  }
+  div > div {
+    margin: 20vh 20vw;
+  }
+  h1 {
+    margin: 0.3em;
+  }
+  p {
+    font-weight: 500;
+  }
+}
+
+//CORSI
+
+#corsiMain {
+  display: flex;
+  > div {
+    margin: 5vh 0;
+  }
+}
+#cardsContainer {
+  @include FlexCenterCenter;
+  flex-wrap: wrap;
+  gap: 1em;
+}

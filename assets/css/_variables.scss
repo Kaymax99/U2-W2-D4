@@ -1,0 +1,30 @@
+// COLORS
+$color-primary: #6125bc;
+$color-secondary: #363786;
+$color-tertiary: #212529;
+$color-white: white;
+
+// DISPLAY AND ALIGNMENT
+
+.text-center {
+  text-align: center;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs-btm {
+  position: absolute;
+  bottom: 0;
+}
+
+.algn-end {
+  align-self: flex-end;
+}
+
+// SIZES
+
+.w-100 {
+  width: 100%;
+}

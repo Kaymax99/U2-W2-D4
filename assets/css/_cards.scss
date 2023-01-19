@@ -1,0 +1,17 @@
+.card {
+  width: 25vw;
+  height: 275px;
+  background-color: $color-white;
+  border-radius: 25px;
+  padding: 1em 2em;
+  h1 {
+    font-size: 2.5em;
+  }
+  h1,
+  h3 {
+    margin: 2px;
+  }
+  p {
+    font-weight: 500;
+  }
+}

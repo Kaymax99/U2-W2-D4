@@ -1,0 +1,15 @@
+@import "reset";
+@import "variables";
+@import "buttons";
+@import "nav";
+@import "main";
+@import "footer";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../img/supplies.jpg);
+  background-size: cover;
+}

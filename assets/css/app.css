@@ -1,0 +1,189 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+ul,
+li {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.rel {
+  position: relative;
+}
+
+.abs-btm {
+  position: absolute;
+  bottom: 0;
+}
+
+.algn-end {
+  align-self: flex-end;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.button-header {
+  background-color: #6125bc;
+  color: white;
+  padding: 0.4em 2em;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.button-header:hover {
+  border: 1px solid white;
+}
+
+.button-main {
+  background-color: #6125bc;
+  color: white;
+  padding: 1em 2.5em;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+}
+.button-main:hover {
+  border: 1px solid white;
+}
+
+.button-corsi {
+  background-color: #6125bc;
+  color: white;
+  padding: 0.5em 2em;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+}
+.button-corsi:hover {
+  border: 1px solid white;
+}
+
+nav,
+.navContent,
+.navList {
+  display: flex;
+  align-items: center;
+}
+
+header,
+nav {
+  width: 100%;
+}
+
+nav {
+  background: #192155;
+  background: linear-gradient(to right, #192155 0%, #101023 100%);
+  color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+nav img {
+  background-color: white;
+  padding: 5px;
+  border-radius: 25px;
+}
+nav .navList li {
+  padding-left: 1em;
+}
+nav a {
+  align-self: flex-start;
+  padding: 1em;
+}
+nav form {
+  padding-right: 1em;
+}
+nav form input {
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.card {
+  width: 25vw;
+  height: 275px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 1em 2em;
+}
+.card h1 {
+  font-size: 2.5em;
+}
+.card h1,
+.card h3 {
+  margin: 2px;
+}
+.card p {
+  font-weight: 500;
+}
+
+#homeMain {
+  height: 80vh;
+  color: white;
+}
+#homeMain > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#homeMain div > div {
+  margin: 20vh 20vw;
+}
+#homeMain h1 {
+  margin: 0.3em;
+}
+#homeMain p {
+  font-weight: 500;
+}
+
+#corsiMain {
+  display: flex;
+}
+#corsiMain > div {
+  margin: 5vh 0;
+}
+
+#cardsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #212529;
+  font-weight: 600;
+  color: white;
+  z-index: 2;
+  border-top: 1px solid white;
+}
+footer div {
+  padding: 1em;
+  padding-top: 2em;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url(../img/supplies.jpg);
+  background-size: cover;
+}/*# sourceMappingURL=app.css.map */

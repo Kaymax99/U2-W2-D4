@@ -1,0 +1,24 @@
+@mixin baseButton($pad1, $pad2) {
+  background-color: $color-primary;
+  color: $color-white;
+  padding: $pad1 $pad2;
+  border-radius: 25px;
+  border: 0;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid $color-white;
+  }
+}
+
+.button-header {
+  @include baseButton(0.4em, 2em);
+  margin-left: 10px;
+}
+
+.button-main {
+  @include baseButton(1em, 2.5em);
+}
+
+.button-corsi {
+  @include baseButton(0.5em, 2em);
+}

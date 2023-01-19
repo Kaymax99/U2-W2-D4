@@ -1,0 +1,14 @@
+@import "mixins";
+
+footer {
+  @include FlexCenterCenter;
+  background-color: $color-tertiary;
+  font-weight: 600;
+  color: $color-white;
+  z-index: 2;
+  border-top: 1px solid $color-white;
+  div {
+    padding: 1em;
+    padding-top: 2em;
+  }
+}
